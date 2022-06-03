@@ -1,0 +1,72 @@
+import { useContext, useEffect, useState } from 'react';
+import AOS from 'aos';
+import { Theme } from '../contexts/Theme';
+import lazyLoad from '../utils/lazy-load-image';
+import AuthModal, { modalTitles } from '../components/Modals/AuthModal';
+import NavBar from '../components/Nav/NavBar';
+import HeroMain from '../components/Hero/HeroMain';
+import HeroDesign from '../components/Hero/HeroDesign';
+import Features from '../components/Features/Features';
+import HeroSimple from '../components/Hero/HeroSimple';
+import Workflows from '../components/Workflows/Workflows';
+import HeroEnd from '../components/Hero/HeroEnd';
+import Footer from '../components/Footer/Footer';
+
+import 'aos/dist/aos.css';
+
+const Home = () => {
+  const [theme, setTheme] = useContext(Theme);
+  const [modalTitle, setModalTitle] = useState(modalTitles[0]);
+  const [showModal, setShowModal] = useState(false);
+  const [showLogin, setShowLogin] = useState(false);
+
+  useEffect(() => {
+    AOS.init({ mirror: true, once: true });
+    lazyLoad(AOS.refresh);
+  }, []);
+
+  const toggleTheme = (e) => setTheme(!theme);
+
+  const toggleModal = (e) => {
+    if (!showModal) {
+      toggleToLogin(e);
+    }
+    setShowModal(!showModal);
+  };
+
+  const toggleToLogin = (e) => {
+    setModalTitle(modalTitles[0]);
+    setShowLogin(true);
+  };
+
+  const toggleToSignup = (e) => {
+    setModalTitle(modalTitles[1]);
+    setShowLogin(false);
+  };
+
+  return (
+    <div className="mx-auto md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-14 overflow-clip">
+      <NavBar toggleTheme={toggleTheme} showLogin={toggleModal} />
+      <HeroMain />
+      <HeroDesign />
+      <Features />
+      <HeroSimple
+        title="Visual approach to software development"
+        description="Visual development environment that allows  users to create apps through methods such as drag-and-drop."
+      />
+      <Workflows />
+      <HeroEnd title="Don't think, just start!" />
+      <Footer />
+      <AuthModal
+        title={modalTitle}
+        show={showModal}
+        login={showLogin}
+        toggleToLogin={toggleToLogin}
+        toggleToSignup={toggleToSignup}
+        onHide={toggleModal}
+      />
+    </div>
+  );
+};
+
+export default Home;
