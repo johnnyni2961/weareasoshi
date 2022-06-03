@@ -8,53 +8,40 @@ const Docs = () => {
         </h1>
         <br />
         <p className="mx-5 text-gray-600 body-font font-poppins">
-          This documentation contains all technical documentation related to the
-          setup, deployment, update and customization of your BaaP application.
+          First, congrats on taking your first step in finding your next startup/project team! Many struggle with this, and ASOSHI seeks to simplify the process for innovative founders to come together.
         </p>
         <br />
         <div className="mx-5 mockup-code">
           <pre>
             <code className="text-amber-500">
-              Can't wait to start using BaaP?
+              ASOSHI Vision: To help every student entrepreneur realize their full potential by accelerating their startup or project process
             </code>
           </pre>
         </div>
         <br />
         <p className="mx-5 text-gray-600 body-font font-poppins">
-          The original purpose of the project was to help users with the help of
-          Graphical User Interface to put forward the needed database schema
-          information with the relationships among them as well as the
-          information regarding the API endpoints and as a result, the required
-          back-end server with all the needed functionalities along with the
-          database will be generated. <br />
+          The Modern Day Problem: Gen-Z students are being underestimated. Platforms such as Linkedin are tailored towards adults and industry experts. But in reality, Gen-Z carries the creativity and will become the leaders and innovators of tomorrow. However, it's difficult to start an initiative with the right cofounder especially as a Gen-Z entrepreneur. <br />
           <br />
-          Basically Backend as a Platform (BaaP) is a Low-code application
-          development platform specifically for back-ends. The technologies used
-          here include Node.js, Express, REST, GraphQL and MongoDB.
+          Solution: Introducing ASOSHI, a web platform where users can match with potential project partners that share similar interests to start initiatives together... as an ASOSHI-backed startup, you also gain access to a network of investors, mentors, and future partnership resources!
         </p>
         <br />
         <h2 className="mx-5 text-3xl text-neutral-600 body-font font-poppins">
-          <b>Open-source & Contribution</b>
+          <b>What ASOSHI Offers</b>
         </h2>
         <br />
         <p className=" mx-5 text-gray-600 body-font font-poppins">
-          Backend as a Platform (BaaP) is an open-source project Licensed under
-          MIT. The core project, as well as the documentation and any related
-          tool can be found in the backend-as-a-platform in GitHub Organisation.
+          Not only does ASOSHI deliver a Gen-Z networking platform, we also developed a private-access, inclusive networking community within Discord. As ASOSHI grows, we are exploring new technologies and resources such as Web3/crypto as well as onboarding investors and mentors onto ASOSHI.
           <br />
           <a
             className="text-cyan-600"
-            href="https://github.com/orgs/backend-as-a-platform/dashboard"
+            href="https://t.co/eFjropqHUD"
           >
-            https://github.com/orgs/backend-as-a-platform/dashboard
+            ASOSHI Discord Link!
           </a>
         </p>
         <br />
         <p className=" mx-5 text-gray-600 body-font font-poppins">
-          As it goes hand in hand with the open-source ecosystem, BaaP is open
-          to contributions. We appreciates every contribution, be it a feature
-          request, bug report, or pull request. The following GitHub
-          repositories are open-source and contributions-friendly.
+          As an ASOSHI-backed startup or project, you become an "Asoshiate" and therefore gain access to all ASOSHI-related resources, investor community, mentorship, and more! Extra features of the ASOSHI app will be unlocked and at your disposal!
         </p>
         <br />
         <div className="mx-5 mockup-code base-300">
@@ -64,61 +51,51 @@ const Docs = () => {
         </div>
         <br />
         <h2 className="mx-5 text-3xl text-neutral-600 body-font font-poppins">
-          <b>Quick Start Guide</b>
+          <b>ASOSHI Founder Guide</b>
         </h2>
         <br />
         <p className="mx-5 text-gray-600 body-font font-poppins">
-          BaaP offers a lot of flexibility. Whether you want to go fast and
-          quickly see the final result, or would rather dive deeper into the
-          product, we got you covered.
+          ASOSHI is not only a networking platform for founders, but a movement for Gen-Z. We prioritize 2 stages in founders, one being those who have a burning idea, and another being already motivated teams seeking for community support, funding, and more!
           <br />
         </p>
         <p className="mx-5 body-font font-poppins">
           <br />
-          <b>Part A: Create a new project</b>
+          <b>Phase A: Launch Your Idea</b>
           <br />
           <br />
           <ul className="list-no disc body-font font-poppins">
             <li>
-              1. Enter your credentials and Signup/ Register into the BaaP
-              platform.
+              1. Register/Login onto the ASOSHI platform
             </li>
             <li>
-              2. After successful registration, Login into the application.
+              2. Customize your profile to express yourself! Network with like-minded founders and explore fellow students' initiatives!
             </li>
             <li>
-              3. On the Dashboard page, Click on Create Project and enter the
-              Name and Description of your project and click on the submit
-              button.
+              3. Get your team. Whether it's a project, startup, or fun community collective, start chatting right in ASOSHI's private chat space right on the app!
             </li>
           </ul>
         </p>
         <p className="mx-5 body-font font-poppins">
           <br />
-          <b>Part B: Build Forms</b>
+          <b>Phase B: Scale Your Startup/Project/Product</b>
         </p>
         <br />
         <ul className=" mx-5 list-no-disc body-font font-poppins">
           <li>
-            1. On entering into the project page click on Create forms and enter
-            the Name of the form and click submit.
+            1. Ok great. You have your idea and possibly a motivated team. What next? This is where you get creative... Expand your community by displaying your project on ASOSHI's explore page!
           </li>
           <li>
-            2. A GUI based form builder page will be loaded.Here you can drag
-            and drop form components.
+            2. Reach out to key investors and fellow students in the ASOSHI community that can further enable your project in new directions.
           </li>
           <li>
-            3. After being done, you can view the corresponding JSON Schema of
-            the form by Clicking code Button from the below.
+            3. ASOSHI also offers a networking discord community for simplified community growth. Nothing fancy. Pure growth of a community.
           </li>
           <li>
             {' '}
-            4. You can save the form by clicking the Save button which will
-            redirect you to a list of saved forms.
+            4. Grow together. As ASOSHI grows, we are heavily invested in entering the web3/crypto community and bringing new technologies and resources to current ASOSHI-backed startups and projects. You gain access to all resources we have. Even our networking events...
           </li>
           <li>
-            5. You can either Archive, Delete or Edit the form from the
-            corresponding page
+            5. Beyond. You have the idea, team, and product. The road ahead of you depends on what you envision...
           </li>
         </ul>
         <br />
