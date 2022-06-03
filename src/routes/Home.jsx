@@ -51,11 +51,11 @@ const Home = () => {
       <HeroDesign />
       <Features />
       <HeroSimple
-        title="Visual approach to software development"
-        description="Visual development environment that allows  users to create apps through methods such as drag-and-drop."
+        title="Simplifying the startup founder search process"
+        description="From VC-backed, unicorn startups to community-led web3 DAOs to personal projects, ASOSHI has your back."
       />
       <Workflows />
-      <HeroEnd title="Don't think, just start!" />
+      <HeroEnd title="Become an ASOSHI-backed startup now!" />
       <Footer />
       <AuthModal
         title={modalTitle}
