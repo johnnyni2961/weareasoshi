@@ -1,6 +1,9 @@
+import NavBar from '../components/Nav/NavBar';
+
 const Docs = () => {
   return (
     <div>
+      <NavBar toggleTheme={toggleTheme} showLogin={toggleModal} />
       <article className="prose">
         <br />
         <h1 className="mx-5 text-5xl text-cyan-600 body-font font-poppins">
