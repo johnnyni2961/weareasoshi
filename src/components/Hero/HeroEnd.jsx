@@ -8,7 +8,7 @@ const HeroEnd = ({ title }) => {
         data-aos="fade-in-down"
         data-aos-delay="300"
       >
-        Become an Asoshiate today!
+        Become an ASOSHIATE today!
       </h1>
       <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
         <Link
