@@ -12,7 +12,7 @@ const HeroMain = () => (
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">
             Student 
           </span>
-          Founders
+          -Founders
         </>
       }
     />
