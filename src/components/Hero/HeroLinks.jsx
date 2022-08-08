@@ -4,9 +4,8 @@ const HeroLinks = () => (
   <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
     <div data-aos="fade-right" data-aos-delay="300">
       <Link
-        to="/docs"
         className="btn btn-primary w-full mb-4 sm:w-auto sm:mb-0"
-        href="/docs"
+        href="https://asoshi-paywall.vercel.app/"
       >
         Get Started
       </Link>
