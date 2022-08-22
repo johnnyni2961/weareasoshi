@@ -1,4 +1,4 @@
-import heroImage from '../../assets/images/header-hero.png';
+import heroImage from '../../assets/images/handshake.png';
 
 const HeroImage = () => (
   <div
