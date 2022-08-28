@@ -61,7 +61,10 @@ const Home = () => {
         title="Built by and for Gen-Z"
         description="Our team comes from leading institutions with a unified goal to drive Gen-Z innovation ecosystems."
       />
-      <img class="object-center" src="https://media.discordapp.net/attachments/954932192440619108/1013315038251073616/transparent-schools.png" alt="Logos"></img>
+      <img class="object-center" src="https://media.discordapp.net/attachments/813498333200384013/1013321812387577856/transparent-schools-large.png?width=1112&height=568" alt="Logos"></img>
+
+
+
       <HeroEnd title="Become an ASOSHI-backed startup now!" />
       <Footer />
       <AuthModal
