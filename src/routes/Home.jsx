@@ -55,11 +55,13 @@ const Home = () => {
         description="From VC-backed, unicorn startups to community-led web3 DAOs to personal projects, ASOSHI has your back."
       />
       <Workflows />
+      <br></br>
+      <br></br>
       <HeroSimple
         title="Built by and for Gen-Z"
         description="Our team comes from leading institutions with a unified goal to drive Gen-Z innovation ecosystems."
-        image="https://media.discordapp.net/attachments/954932192440619108/1013315038251073616/transparent-schools.png"
       />
+      <img class="object-center" src="https://media.discordapp.net/attachments/954932192440619108/1013315038251073616/transparent-schools.png" alt="Logos"></img>
       <HeroEnd title="Become an ASOSHI-backed startup now!" />
       <Footer />
       <AuthModal
