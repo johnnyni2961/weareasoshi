@@ -13,10 +13,10 @@ const HeroEnd = ({ title }) => {
       <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
         <Link
           className="btn btn-primary my-6 w-full sm:w-auto sm:ml-4"
-          to="/docs"
+          to="https://getwaitlist.com/waitlist/4107"
           data-aos="zoom-y-out"
         >
-          Let's go
+          Join Waitlist!
         </Link>
       </div>
     </div>
