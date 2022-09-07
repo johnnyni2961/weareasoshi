@@ -11,13 +11,13 @@ const HeroEnd = ({ title }) => {
         Become an ASOSHIATE today!
       </h1>
       <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
-        <Link
+        <a
           className="btn btn-primary my-6 w-full sm:w-auto sm:ml-4"
           href="https://getwaitlist.com/waitlist/4107"
           data-aos="zoom-y-out"
         >
           Join Waitlist!
-        </Link>
+        </a>
       </div>
     </div>
   );
